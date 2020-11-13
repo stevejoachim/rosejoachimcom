@@ -1,6 +1,6 @@
 +++
 categories = ["design", "cool"]
-image = "/images/favicon-16x16.png"
+image = "/images/portfolio/item-2.png"
 link = "https://example.com"
 title = "Writing Sample"
 
