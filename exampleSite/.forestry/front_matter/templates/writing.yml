@@ -15,3 +15,5 @@ fields:
   name: categories
   label: categories
   description: categories
+pages:
+- exampleSite/content/writing/writing-sample.md
