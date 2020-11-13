@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Hi! I’m <br> Rose <br> Healthcare Analyst
+  title: Rose Joachim <br> Healthcare Analyst
 about:
   enable: true
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -135,5 +135,8 @@ clients_logo_slider:
   - logo: images/clients-logo/client-logo-5.png
     URL: "#"
 blog:
+  enable: false
+  title: Blog
+writing:
   enable: true
-  title: Blogs
+  title: Writing

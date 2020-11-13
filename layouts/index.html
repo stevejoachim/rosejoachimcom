@@ -257,6 +257,31 @@
   <!-- /client logo slider -->
   {{ end }}
 
+  {{ if site.Data.homepage.writing.enable }}
+  <!-- writing -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title">{{site.Data.homepage.writing.title | markdownify }}</h2>
+        </div>
+        {{ range first 3 (where .Site.RegularPages "Section" "writing")}}
+        <div class="col-lg-4 col-sm-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+          <article class="card shadow">
+            <img class="rounded card-img-top" src="{{.Params.Image | relURL}}" alt="{{.Title }}">
+            <div class="card-body">
+              <h4 class="card-title"><a class="text-dark" href="{{.Params.link}}" target="_blank">{{.Title }}</a>
+              </h4>
+            </div>
+          </article>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- /writing -->
+  {{ end }}
+
   {{ if site.Data.homepage.blog.enable }}
   <!-- blog -->
   <section class="section">

@@ -1,0 +1,53 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<!-- portfolio -->
+<section class="section">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
+          <label class="btn btn-sm btn-primary active">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+          </label>
+					{{ $categories := slice }}
+					{{ range .Data.Pages }}
+					{{ range .Params.categories }}
+					{{ $categories = $categories | append . }}
+					{{ end }}
+					{{ end }}
+					{{ range ( $categories | uniq ) }}
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
+          </label>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="{{.Params.Image | relURL}}" alt="{{.Title }}">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="{{.Params.link}}" target="_blank">{{.Title }}</a>
+            </h4>
+          </div>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+
+{{ if site.Data.about.clients_logo_slider.enable }}
+<section class="section bg-light">
+  <div class="container">
+    {{ partial "client-slider.html" . }}
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

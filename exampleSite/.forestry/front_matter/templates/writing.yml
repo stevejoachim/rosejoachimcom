@@ -1,0 +1,17 @@
+---
+label: Writing
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: link
+  label: link
+- type: tag_list
+  name: categories
+  label: categories
+  description: categories

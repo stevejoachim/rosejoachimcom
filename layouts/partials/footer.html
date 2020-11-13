@@ -32,6 +32,7 @@
 <!-- /contact -->
 {{ end }}
 
+{{ if site.Params.footer.enable }}
 <!-- footer -->
 <footer class="bg-dark footer-section">
   <div class="section">
@@ -57,6 +58,7 @@
   </div>
 </footer>
 <!-- /footer -->
+{{ end }}
 
 {{ "<!-- Google Map API -->" | safeHTML }}
 {{ if site.Params.map.enable }}

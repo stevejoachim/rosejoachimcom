@@ -2,13 +2,9 @@ baseURL = "https://rosejoachim.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "rosejoachimcom"
-title = "Kross"
+title = "Rose Joachim"
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 3
-[[menu.main]]
-URL = "blog"
+URL = "writing"
 name = "Writing"
 weight = 2
 [[menu.main]]
@@ -20,17 +16,17 @@ address = "125/A, CA Commercial Area, California, USA"
 author = "Johnathan Smith"
 copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
 description = "This is meta description"
-email = "steve.fruits@email.com"
+email = "example@email.com"
 google_analytics_id = ""
 home = "Home"
 logo = ""
 phone = "+880 2544 658 256"
 theme_color = "#41228e"
 [params.contact]
-enable = true
+enable = false
 form_action = "#"
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
 [params.map]
 enable = true
@@ -57,15 +53,8 @@ link = "plugins/google-map/map.js"
 [params.preloader]
 enable = true
 preloader = "images/preloader.gif"
-[[params.social]]
-URL = "#"
-icon = "ti-facebook"
-[[params.social]]
-URL = "#"
-icon = "ti-instagram"
-[[params.social]]
-URL = "#"
-icon = "ti-dribbble"
-[[params.social]]
-URL = "#"
-icon = "ti-twitter-alt"
+[params.footer]
+enable = false
+# [[params.social]]
+# URL = "https://www.linkedin.com/in/rose-joachim/"
+# icon = "ti-linkedin"
