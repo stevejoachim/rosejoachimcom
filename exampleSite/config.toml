@@ -1,8 +1,8 @@
 # default configuration
-baseURL = "http://examplesite.com"
+baseURL = "https://angry-hamilton-3ab8ae.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "kross-hugo"
+theme = "rosejoachimcom"
 title = "Kross"
 
 # css plugins
