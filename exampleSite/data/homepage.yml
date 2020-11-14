@@ -1,6 +1,7 @@
 ---
 banner:
-  title: Rose Joachim <br> Healthcare Analyst
+  name: Rose Joachim
+  role: Healthcare Analyst
 about:
   enable: true
   content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
