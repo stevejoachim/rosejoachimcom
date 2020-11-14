@@ -2,6 +2,6 @@
   "scripts": {
     "build": "cd exampleSite && hugo --gc --themesDir ../..",
     "dev": "cd exampleSite && hugo server --themesDir ../..",
-    "deploy": "git add * && git commit -m 'Deploying' && git push origin master"
+    "deploy": "git add * && git commit -m 'auto-deploy' && git push origin master"
   }
 }
