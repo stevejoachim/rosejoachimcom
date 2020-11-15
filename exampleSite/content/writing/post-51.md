@@ -4,8 +4,6 @@ title: Vaccination may be the answer to JAK inhibitor-associated shingles risk, 
 image: images/writing/post-51.jpg
 link: https://www.pharmaceutical-technology.com/comment/vaccination-shingrix/
 categories:
-- Analyst Insight
-- Rheumatology
 - Conference Review
 
 ---
