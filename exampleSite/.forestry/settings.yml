@@ -7,7 +7,6 @@ sections:
 - type: document
   path: exampleSite/content/about/_index.md
   label: About
-  match: "**/*"
 - type: heading
   label: Blog Post
 - type: directory
@@ -41,8 +40,8 @@ sections:
   label: Homepage
   create: all
   match: "**/*"
-upload_dir: exampleSite/static/images/writing
-public_path: "/images/writing"
+upload_dir: exampleSite/static/images/about
+public_path: "/images/about"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
