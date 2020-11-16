@@ -266,7 +266,7 @@
         <div class="col-12 text-center">
           <h2 class="section-title">{{site.Data.homepage.writing.title | markdownify }}</h2>
         </div>
-        {{ range first 3 (where .Site.RegularPages "Section" "writing")}}
+        {{ range first 3 (sort (where .Site.RegularPages "Section" "writing") "Params.order" "asc")}}
         <div class="col-lg-4 col-sm-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
           <article class="card shadow">
             <img class="rounded card-img-top" src="{{.Params.Image | relURL}}" alt="{{.Title }}">
@@ -277,6 +277,11 @@
           </article>
         </div>
         {{ end }}
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="writing" class="btn btn-transparent">Read More</a>
+        </div>
       </div>
     </div>
   </section>
