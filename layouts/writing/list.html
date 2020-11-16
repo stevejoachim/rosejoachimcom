@@ -26,7 +26,7 @@
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {{ range .Data.Pages }}
+      {{ range sort .Data.Pages "Params.image" "desc"}}
       <div class="col-lg-4 col-sm-6 mb-4 shuffle-item" data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
         <article class="card shadow">
           <img class="rounded card-img-top" src="{{.Params.Image | relURL}}" alt="{{.Title }}">
