@@ -49,18 +49,12 @@ education:
   enable: true
   title: Education
   item:
-  - title: Bachelor of Science, Biology
-    year: "2011"
-    academy: The College of New Jersey
   - title: Doctor of Philosophy (PhD), Biological Sciences and Public Health
     year: "2017"
     academy: Harvard University
-  - title: Higher Secondary Certificat
-    year: "2000"
-    academy: Cardiff School
-  - title: Secondary School Certificate
-    year: "1998"
-    academy: Cardiff School
+  - title: Bachelor of Science, Biology
+    year: "2011"
+    academy: The College of New Jersey
 service:
   enable: false
   title: Services
