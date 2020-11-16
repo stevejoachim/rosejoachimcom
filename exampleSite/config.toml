@@ -13,7 +13,7 @@ name = "About"
 weight = 1
 [params]
 address = "125/A, CA Commercial Area, California, USA"
-author = "Johnathan Smith"
+author = "Rose Joachim"
 copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothemes.com)"
 description = "This is meta description"
 email = "example@email.com"
@@ -28,6 +28,8 @@ form_action = "#"
 [params.cookies]
 enable = false
 expire_days = 2
+[params.footer]
+enable = false
 [params.map]
 enable = true
 gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
@@ -53,8 +55,3 @@ link = "plugins/google-map/map.js"
 [params.preloader]
 enable = true
 preloader = "images/preloader.gif"
-[params.footer]
-enable = false
-# [[params.social]]
-# URL = "https://www.linkedin.com/in/rose-joachim/"
-# icon = "ti-linkedin"
