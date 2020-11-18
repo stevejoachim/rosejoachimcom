@@ -4,10 +4,9 @@ banner:
   role: Healthcare Analyst
 about:
   enable: true
-  content: Hi! My name is Rose. I am a PhD-trained healthcare analyst with a passion
-    for effective science communication. I love deconstructing complex scientific
-    concepts and data to build clear and compelling narratives fit for a wide range
-    of audiences.
+  content: 'Hi! My name is Rose. I am a PhD-trained healthcare analyst with a passion
+    for writing about science and medicine. I love the challenge of transforming complex
+    concepts and datasets into clear and compelling narratives. '
   button:
     enable: true
     label: Read More
