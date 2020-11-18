@@ -5,8 +5,8 @@ banner:
 about:
   enable: true
   content: 'Hi! My name is Rose. I am a PhD-trained healthcare analyst with a passion
-    for writing about science and medicine. I love the challenge of transforming complex
-    concepts and datasets into clear and compelling narratives. '
+    for writing about science and medicine. I love transforming complex concepts and
+    datasets into clear and compelling narratives. '
   button:
     enable: true
     label: Read More
