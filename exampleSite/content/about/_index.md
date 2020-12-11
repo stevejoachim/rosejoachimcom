@@ -15,7 +15,7 @@ To grow as a writer and gain industry experience, I began my career as a Healthc
 
 For each report, I survey physicians on their most frequently prescribed therapies and interview key opinion leaders about new developments in the field. I combine these primary data with findings from journal articles, regulatory filings, and other documents to create a detailed report that forecasts market trends over the next decade.
 
-Along with long-form reports, I’ve produced numerous short communications at GlobalData including press releases, insight pieces, conference coverage, and expert commentary. Although my focus is on immunological diseases, I’ve enjoyed branching out into new topics like cybersecurity in healthcare and the medical device market.
+Along with long-form reports, I’ve produced numerous short communications at GlobalData including press releases, insight pieces, conference coverage, and expert commentary. Although my focus is on immunological diseases, I’ve enjoyed branching out into new topics like cybersecurity in healthcare and the medical device industry.
 
 My experiences as a doctoral student, teacher, and healthcare analyst have expanded my abilities as a writer and deepened my interest in science communication. I am excited to push further into this field and continue to grow as a writer, communicator, and scientist.
 
