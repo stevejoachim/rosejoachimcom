@@ -16,14 +16,14 @@ body {
   line-height: 1.2;
   font-family: roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 18px;
   color: #4c4c4c
 }
 
 p {
   font-weight: 400;
   color: #4c4c4c;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
   font-family: roboto, sans-serif
 }

@@ -19,4 +19,4 @@ Along with long-form reports, I’ve produced numerous short communications at G
 
 My experiences as a doctoral student, teacher, and healthcare analyst have expanded my abilities as a writer and deepened my interest in science communication. I am excited to push further into this field and continue to grow as a writer, communicator, and scientist.
 
-For writing samples, please see my portfolio.
+For writing samples, please see my [portfolio](/writing).
