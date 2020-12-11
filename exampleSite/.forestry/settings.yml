@@ -40,7 +40,7 @@ sections:
   label: Homepage
   create: all
   match: "**/*"
-upload_dir: exampleSite/static/images/about
+upload_dir: exampleSite/static/images/writing
 public_path: "/images/writing"
 front_matter_path: ''
 use_front_matter_path: false
