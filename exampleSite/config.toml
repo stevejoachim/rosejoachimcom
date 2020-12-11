@@ -1,4 +1,4 @@
-baseURL = "http://rosejoachim.com"
+baseURL = "https://rosejoachim.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "rosejoachimcom"
